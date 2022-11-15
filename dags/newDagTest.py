@@ -6,7 +6,6 @@ from datetime import datetime
 from airflow.operators.python import PythonOperator, BranchPythonOperator
 from airflow.operators.bash import BashOperator
 import boto3
-import toml
 import random
 
 
