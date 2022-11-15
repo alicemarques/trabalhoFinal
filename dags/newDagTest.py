@@ -48,7 +48,7 @@ def coleta_dados():
 # 	)
 
 
-with DAG('tutorial_dag_carlos',
+with DAG('dag_trabalho_final',
           start_date= datetime(2022,11,4),
           schedule_interval= '30 * * * *',
           catchup=False) as dag:
