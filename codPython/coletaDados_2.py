@@ -66,7 +66,7 @@ def main():
     url = create_url()
     headers = create_headers(bearer_token)
 
-    caminho = "/home/carlos/Desktop/airflow_demo/airflow/arquivos/data_tweet.json"
+    caminho = "s3://trabalhofinal285785619488/args/data_tweet.json"
     create_parent_folder(caminho)
     with open(caminho, 'w') as output_file:
                 for pg in paginate(url, headers):
