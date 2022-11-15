@@ -1,4 +1,5 @@
-from "s3://trabalhofinal285785619488/args/coletaDados_2" import main
+url = "s3://trabalhofinal285785619488/args/"
+from url.coletaDados_2 import main
 # from codPython.transformaDadosSpark import process_start_1
 # from codPython.indicador_final import process_start_2
 from airflow import DAG
