@@ -1,4 +1,4 @@
-# rom codPython.coletaDados_2 import main
+from codPython.coletaDados_2 import main
 # from codPython.transformaDadosSpark import process_start_1
 # from codPython.indicador_final import process_start_2
 from airflow import DAG
