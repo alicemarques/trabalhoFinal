@@ -21,7 +21,6 @@ with open("/home/carlos/Documents/APITw.toml") as config:
    ACCESS_TOKEN_SECRET = config['ACCESS_TOKEN_SECRET']
    BEARER_TOKEN = config['BEARER_TOKEN']
 
-# BEARER_TOKEN = 'AAAAAAAAAAAAAAAAAAAAAFZSiwEAAAAA%2FF75VThXwHaegA3yMJ8GWtEQHrI%3DnihIOVIN2mnzN4hq7HmqhC3g6TiV68FcjOFTzuZ9CLJKKr8a6g'
 def auth():
     return BEARER_TOKEN
 
